@@ -15,8 +15,13 @@ trim1= jan+fev+mar
 trim2= abr+mai+jun
 trim3= jul+ago+set
 trim4= out+nov+dez
-print("Total de vendas do primeiro trimestre: R$:",trim1)
-print("Total de vendas do segundo trimestre: R$:",trim2)
-print("Total de vendas do terceiro trimestre: R$:",trim3)
-print("Total de vendas do quarto trimestre: R$:",trim4)
-print("Total de vendas da loja: R$:",trim1+trim2+trim3+trim4)
+print("\n---------------------------------------\n")
+print("Nome da loja: ",nome)
+print("\n---------------------------------------\n")
+print("Vendas")
+print("\n---------------------------------------\n")
+print("Total de vendas do primeiro trimestre: R$",trim1)
+print("Total de vendas do segundo trimestre: R$",trim2)
+print("Total de vendas do terceiro trimestre: R$",trim3)
+print("Total de vendas do quarto trimestre: R$",trim4)
+print("Total de vendas do ano: R$",trim1+trim2+trim3+trim4)
